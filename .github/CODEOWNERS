@@ -1,0 +1,17 @@
+# CODEOWNERS for ai-privacy-review-framework
+# These owners will be the default reviewers for everything in the repo.
+# Order matters: the LAST matching pattern wins.
+
+# Default owner for everything
+*       @Alfredfuller8
+
+# Framework core (privacy logic, scoring) — always review carefully
+/framework/    @Alfredfuller8
+/templates/    @Alfredfuller8
+
+# Documentation
+/docs/         @Alfredfuller8
+README.md      @Alfredfuller8
+
+# CI / repo configuration
+/.github/      @Alfredfuller8
